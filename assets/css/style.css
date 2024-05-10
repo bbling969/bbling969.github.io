@@ -241,7 +241,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/profile-img.jpg")  left;
   background-size: cover;
 }
 
@@ -253,7 +253,7 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: 1; 
 }
 
 #hero .hero-container {
