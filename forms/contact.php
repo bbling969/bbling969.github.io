@@ -3,7 +3,7 @@
 $receiving_email_address = 'gueyeadamaemmanuel@gmail.com';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    if (file_exists($php_email_form = '../assets/vendor/php-email-form/validate.php')) {
+    if (file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php')) {
         include($php_email_form);
 
         $contact = new PHP_Email_Form();
